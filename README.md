@@ -5,4 +5,4 @@ To work on the Discount Baba, clone the repository.
 
 To install dependencies:
 
-    npm install && bower install && gulp serve:dist
+    npm install && bower install && gulp serve

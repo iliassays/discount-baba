@@ -16,8 +16,6 @@ var superstatic = require('superstatic');
 var plumber = require('gulp-plumber');
 var polybuild = require('polybuild');
 
-var stream = require('./build/catalog/utils/stream').obj;
-
 function serve(directories, callback) {
   var port = process.env.PORT || 3000;
   var dev = connect();
