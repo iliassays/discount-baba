@@ -25,15 +25,55 @@
   <template>
     <theme-color color="[[package.color]]">
       <div themed class="fit">
-        <span>[[package.symbol]]</span>
+        <span></span>
       </div>
     </theme-color>
   </template>
 </dom-module>
+<dom-module id="package-version">
+  <style>
+    :host {
+      display: block;
+      position: relative;
+      line-height: 34px;
+      width: 34px;
+      height: 34px;
+      text-align: center;
+      font-weight: 500;
+      font-size: 18px;
+      color: #606060;
+      outline: none;
+      border: 1px solid #e5e5e5;
+      border-radius: 50%;
+      background: rgb(229, 255, 0);
+      box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.1);
+    }
 
+    :host(.large) {
+      line-height: 64px;
+      width: 64px;
+      height: 64px;
+      font-size: 30px;
+    }
+  </style>
+  <template>
+    <div themed class="fit">
+      <span>[[package.version]]</span>
+    </div>
+  </template>
+</dom-module>
 <script>
   Polymer({
     is: 'package-symbol',
+    properties: {
+      package: Object
+    }
+  });
+</script>
+
+<script>
+  Polymer({
+    is: 'package-version',
     properties: {
       package: Object
     }

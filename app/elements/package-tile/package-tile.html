@@ -6,8 +6,8 @@
   <template>
     <catalog-package name="[[name]]" data="{{package}}"></catalog-package>
     <theme-color id="content" color="[[package.color]]" class="vertical layout" themed themed-border>
-      <span class="version">[[package.version]]</span>
-      <h2 class="symbol">[[package.symbol]]</h2>
+      <span class="version"><package-version package="[[package]]"></package-version></span>
+      <h2 class="symbol">&nbsp;</h2>
       <h3 class="title" extended$="[[_extendedTitle(package)]]">[[package.title]]</h3>
       <hr themed-reverse>
       <p class="tagline">[[package.tagline]]</p>
