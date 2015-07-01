@@ -1,0 +1,137 @@
+{
+  "guides": [
+
+  ],
+  "packages": [
+    {
+      "name": "hotel-catagory",
+      "title": "Hotel",
+      "color": "#39c051",
+      "symbol": "1",
+      "tagline": "Find your discount on hotel",
+      "version": "10",
+      "description": "View the list of discounted hotel in Dhaka, Sylhet & Cox's Bazar.",
+      "elements": [
+        "hotel-srigal-coxbazar",
+        "hotel-prasadparadise-coxbazar",
+        "hotel-srimongol-sylhet",
+        "hotel-saymon-coxbazar"
+      ],
+      "guides": []
+    },
+    {
+      "name": "restaurant-catagory",
+      "title": "Restaurant & Party Center",
+      "color": "#ffffff",
+      "symbol": "2",
+      "tagline": "Find your offer on Foods, Restaurant and Party center",
+      "version": "20",
+      "description": "Find your discount on Foods, Restaurant and Party center at Dhaka, Chittagong & Sylhet.",
+      "elements": [
+        "restaurant-timeout-dhaka",
+        "restaurant-pizzahut-dhaka",
+        "restaurant-KFC",
+        "restaurant-Nandoos"
+      ],
+      "guides": []
+    },
+    {
+      "name": "travels-category",
+      "title": "Travels & Tour",
+      "color": "#64B5F6",
+      "symbol": "3",
+      "tagline": "Find your offer on Tours & travels",
+      "version": "15",
+      "description": "Find your offer on Tours & travels near you.",
+      "elements": [
+        "tour-unitedair",
+        "tour-mahimatravels"
+      ],
+      "guides": []
+    },
+    {
+      "name": "jewellery-category",
+      "color": "#ffb74d",
+      "title": "Jewellery",
+      "symbol": "4",
+      "tagline": "Find your offer on gold, diamond jewellery",
+      "version": "9",
+      "description": "Offers are on for.............",
+      "elements": [
+        "jewellery-amin-diamond",
+        "jewellery-amin-gold",
+        "jewellery-dimondworld"
+      ],
+      "guides": []
+    },
+    {
+      "name": "fashion-cloth-category",
+      "title": "Fashion & Clothing",
+      "color": "#a7ffeb",
+      "symbol": "5",
+      "tagline": "More than 20+ fashion house is currently waiting for you",
+      "version": "9",
+      "description": "\"Bla bla bla.\"",
+      "elements": [
+        "fashion-yellow"
+      ],
+      "guides": []
+    },
+    {
+      "name": "beauty-catagory",
+      "title": "Beauty & Spa",
+      "color": "#cfd8dc",
+      "symbol": "6",
+      "tagline": "Offline, push, and more",
+      "version": "2",
+      "description": "Bla Bla.",
+      "elements": [
+        "beauty-persona",
+        "beauty-farzanasakils"
+      ],
+      "guides": []
+    },
+    {
+      "name": "electronics-category",
+      "title": "Electronics",
+      "color": "#ffab91",
+      "symbol": "7",
+      "tagline": "View our Electronics offers on various shops ",
+      "version": "7",
+      "description": "blah blah",
+      "elements": [
+        "electronics-sony"
+      ],
+      "guides": []
+    }
+  ],
+  "elements": [
+    {
+      "name": "restaurant-timeout-dhaka",
+      "title": "Timeout",
+      "description": "Timeout is offering 5% discount on it's iftar item",
+      "package": "restaurant-catagory",
+      "tags": ["food","restaurant","iftar","adda", "banani"],
+      "elements": [
+
+      ],
+      "behaviors": [
+
+      ]
+    },
+    {
+      "name": "tour-unitedair",
+      "title": "United Air",
+      "description": "United air is offering 10% cashback whole ramadan",
+      "package": "travels-category",
+      "tags": ["airline","tour","biman","united air", "unitedair"],
+      "elements": [
+
+      ],
+      "behaviors": [
+
+      ]
+    }
+  ],
+  "tags": {}
+}
