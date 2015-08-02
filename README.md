@@ -1,4 +1,4 @@
-# DiscountBaba - A complete discount solution application with Polymer
+# DiscountBaba - A catalog prototype with Polymer 1.0
 ## Getting Started
 
 To work on the Discount Baba, clone the repository.
